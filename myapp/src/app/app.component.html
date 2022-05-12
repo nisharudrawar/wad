@@ -1,0 +1,50 @@
+<div>
+  <h1>Welcome to ToDo list</h1>
+
+  <div class="container-fluid">
+      <!-- <app-todo></app-todo> -->
+      <form [formGroup]="inputForm">
+          Input 1:
+          <input type="text" formControlName="input1">
+          Input 2:
+          <input type="text" formControlName="input2">
+          <button (click)="submit()">Submit</button>
+      </form>
+  </div>
+
+
+  <table *ngIf="st1" border="5px">
+      <tr>
+          <td>{{ st1 }}</td>
+          <td>{{st1+1 }}</td>
+          <td>{{st1+ 2 }}</td>
+      </tr>
+      <tr>
+          <td>{{ st1*2 }}</td>
+          <td>{{(st1+1)*2 }}</td>
+          <td>{{(st1+ 2)*2 }}</td>
+      </tr>
+      <tr>
+          <td>{{ st1*3 }}</td>
+          <td>{{(st1+1)*3 }}</td>
+          <td>{{(st1+ 2)*3 }}</td>
+      </tr>
+  </table>
+  <table *ngIf="st1" border="5px">
+      <tr>
+          <td>{{ st2 }}</td>
+          <td>{{st2+1 }}</td>
+          <td>{{st2+ 2 }}</td>
+      </tr>
+      <tr>
+          <td>{{ st2*2 }}</td>
+          <td>{{(st2+1)*2 }}</td>
+          <td>{{(st2+ 2)*2 }}</td>
+      </tr>
+      <tr>
+          <td>{{ st2*3 }}</td>
+          <td>{{(st2+1)*3 }}</td>
+          <td>{{(st2+ 2)*3 }}</td>
+      </tr>
+  </table>
+</div>
