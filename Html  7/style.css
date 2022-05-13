@@ -1,0 +1,30 @@
+#search {
+    color:black;
+    border-radius: 10% 10% 10% 10%;
+    background-color: darkslategrey;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 130px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgb(0, 4, 5);
+}
+
+#liveAlertBtn {
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 600px;
+    color:black;
+    border-radius: 10% 10% 10% 10%;
+    background-color: dimgray;
+}
+
+.colr {
+    border: 2px solid black;
+}
